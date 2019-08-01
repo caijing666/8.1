@@ -1,0 +1,6 @@
+import json
+file = open('C:\\Users\\123\\Desktop\\ѧϰpy\\1.json','r+',encoding='utf-8')
+data = { " name":" caijing","age":22,"sex":"female"}
+file.read()
+json.dump(data,file,ensure_ascii=False)
+file.close()
